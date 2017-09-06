@@ -25,7 +25,7 @@ void converterValor(int x, int y){
 int main(){
 	int num;
 	
-	printf("Digite um numero Decimal: ");
+	printf("Digite um numero inteiro: ");
 	scanf("%d", &num);
 	
 	converterValor(num, checarBits(num));
